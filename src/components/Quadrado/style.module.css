@@ -1,0 +1,17 @@
+.quadrado {
+  width: 100px;
+  height: 100px;
+  background: #fff;
+  border: 2px solid #000;
+  font-size: 50px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2px;
+}
+
+.quadrado:hover{
+    border-color: #000;
+}
