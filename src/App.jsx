@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Tabuleiro from './components/Tabuleiro';
 import Status from './components/Status';
 import Reiniciar from './components/Reiniciar';
-import './app.css';
+import './App.css';
 
 export default function App() {
   const [squares, setSquares] = useState(Array(9).fill(null));
